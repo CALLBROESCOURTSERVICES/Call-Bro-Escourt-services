@@ -127,6 +127,7 @@ body {
     border-radius: 40px;
     object-fit: cover;
     padding-left: 20px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 .independent{
     margin-left: 20px;
@@ -139,17 +140,37 @@ body {
 ========================= */
 
 .hplc-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
 
     background: rgb(235, 243, 248);
 
     padding: 20px;
     margin: 20px;
-
+    
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
+}
+.hplc-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
 }
 
 #images {
@@ -163,6 +184,7 @@ body {
 .hplc-content {
     display: flex;
     flex-direction: column;
+    margin: 0%;
 }
 
 .hplc-line {
@@ -171,6 +193,7 @@ body {
     text-decoration: none !important;
     font-size: 50px;
     color: rgb(18, 59, 93);
+    margin: 0%;
 }
 
 .hplc-content p {
@@ -208,9 +231,11 @@ body {
 ========================= */
 
 .lcms-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 
     background: rgb(235, 243, 248);
 
@@ -220,6 +245,24 @@ body {
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
 }
+.lcms-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
+}
+
 
 .lcms-img {
     width: 180px;
@@ -372,9 +415,11 @@ body {
 ========================= */
 
 .gcms-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 
     background: rgb(235, 243, 248);
 
@@ -383,6 +428,23 @@ body {
 
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
+}
+.gcms-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
 }
 
 .gcms-img {
@@ -411,9 +473,11 @@ body {
 ========================= */
 
 .polarimeter-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 
     background: rgb(235, 243, 248);
 
@@ -422,6 +486,23 @@ body {
 
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
+}
+.polarimeter-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
 }
 
 .polarimeter-img {
@@ -450,9 +531,11 @@ body {
 ========================= */
 
 .uv-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 
     background: rgb(235, 243, 248);
 
@@ -462,7 +545,23 @@ body {
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
 }
-
+.uv-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
+}
 .uv-img {
     width: 180px;
     height: 180px;
@@ -489,9 +588,11 @@ body {
 ========================= */
 
 .ftir-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 
     background: rgb(235, 243, 248);
 
@@ -500,6 +601,23 @@ body {
 
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
+}
+.ftir-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
 }
 
 .ftir-img {
@@ -528,9 +646,11 @@ body {
 ========================= */
 
 .ph-box {
+    position: relative;
     display: flex;
     align-items: flex-start;
     gap: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 
     background: rgb(235, 243, 248);
 
@@ -539,6 +659,23 @@ body {
 
     border: 2px solid rgb(217, 227, 234);
     border-radius: 25px;
+}
+.ph-box:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.vip-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(135deg, #ffd700, #d4a017);
+    color: #000;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 2;
+    margin: 0%;
 }
 
 .ph-img {
@@ -560,19 +697,6 @@ body {
     font-size: 50px;
     color: rgb(18, 59, 93);
 }
-
-
-/* =========================
-   OUR SERVICES
-========================= */
-
-
-
-
-/* =========================
-   SERVICE CARDS
-   CG1 TO CG15
-========================= */
 
 /* ================================
    OUR SERVICES + GENUINE SIDE BY SIDE
